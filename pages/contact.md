@@ -1,8 +1,8 @@
 ---
 layout: layouts/contact.njk
-title: Request A Free Quote
+title: Request A Quote
 section: contact
-date: 2018-01-01
+date: 2020-05-15
 permalink: /contact/index.html
 eleventyNavigation:
   key: Contact

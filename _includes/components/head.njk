@@ -1,9 +1,11 @@
 <head>
   <meta charset="utf-8">
-  <link rel="dns-prefetch" href="https://identity.netlify.com">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ title or renderData.title or metadata.title }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <script async src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+  <title>{{ metadata.title }} | {{ title or renderData.title }}</title>
+  <link rel="dns-prefetch" href="https://identity.netlify.com">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
   {% set css %}
     {% include "assets/css/inline.css" %}
   {% endset %}

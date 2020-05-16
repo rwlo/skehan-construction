@@ -52,6 +52,10 @@ main > article > h2 {
 	margin-bottom: .75em;
 }
 
+small {
+	color: var(--gray);
+}
+
 pre {
 	font-size: 14px;
 	direction: ltr;
@@ -80,24 +84,8 @@ header nav ul :first-child {
 	margin-left: 0;
 }
 
-header nav li {
-	display: inline-block;
-	margin: 0 .25em;
-}
-
-header nav li a {
-	padding: .25em .5em;
-	border-radius: .25em;
-}
-
-header nav li a:hover {
-	text-decoration: none;
-	background-color: var(--secondary);
-}
-
-header nav li a[data-current="current item"] {
-	background-color: var(--primary);
-	color: var(--white);
+.nav-pills .nav-link.active {
+  background-color: var(--primary);
 }
 
 /* Posts List */
@@ -125,10 +113,12 @@ a[rel="tag"]:visited {
   border: 1px solid var(--secondary);
 	background-color: var(--secondary);
 	color: var(--primary);
-  border-radius: .25em;
+  border-radius: .25rem;
   text-decoration: none;
 	margin: 0 .5em .5em 0;
 }
+
+/* TODO: Look at using bootstrap badge class instead. */
 
 a[rel="tag"]:hover {
 	border: 1px solid var(--primary);
@@ -141,9 +131,6 @@ a[rel="tag"]:last-child {
 }
 
 /* Contact Form */
-form {
-  display: grid;
-}
 
 form label {
   display: none;
@@ -152,14 +139,12 @@ form label {
 .form-control-lg {
 	font-size: 1rem;
 	padding: 1rem;
-	border-radius: .25em;
 	color: var(--primary);
 	border-color: var(--primary);
 }
 
 .btn-secondary {
 	font-size: 1rem;
-	border-radius: .25em;
 	background-color: var(--primary);
 	border-color: var(--primary);
 }

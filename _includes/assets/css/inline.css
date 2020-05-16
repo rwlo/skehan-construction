@@ -1,7 +1,7 @@
 :root {
-	--primary: blue;
-	--secondary: white;
-	--background: #FFF0EB;
+	--primary: var(--gray-dark);
+	--secondary: var(--light);
+	--background: var(--white);
 }
 
 *, *:before, *:after {
@@ -20,10 +20,6 @@ body {
 	height: 100vh;
 	grid-template-rows: auto 1fr auto;
 	background-color: var(--background);
-}
-
-main {
-	max-width: 37.5em;
 }
 
 p,
@@ -45,6 +41,9 @@ header,
 main,
 footer {
 	padding: 1em;
+	width: 100%;
+	max-width: 37.5em;
+	margin: 0 auto;
 }
 
 main {
@@ -54,6 +53,7 @@ main {
 main :first-child,
 main > article :first-child {
 	margin-top: 0;
+	margin-bottom: .75em;
 }
 
 pre {
@@ -71,15 +71,6 @@ pre {
 	hyphens: none;
 	padding: 1em;
 	margin: .5em 0;
-}
-
-/* Header Logo (style as h2) */
-header > em {
-	display: block;
-	font-size: 2em;
-	margin: .67em 0;
-	font-weight: bold;
-	font-style: normal;
 }
 
 /* Header Nav */
@@ -102,12 +93,14 @@ header nav li a {
 	border-radius: .25em;
 }
 
-header nav li a[href]:not(:hover) {
+header nav li a:hover {
 	text-decoration: none;
+	background-color: var(--secondary);
 }
 
 header nav li a[data-current="current item"] {
-	background-color: white;
+	background-color: var(--primary);
+	color: var(--white);
 }
 
 /* Posts List */
@@ -155,7 +148,7 @@ a[rel="tag"]:last-child {
 /* Contact Form */
 form {
   display: grid;
-	padding: 2em 0;
+	padding-bottom: 2em;
 }
 
 form label {
@@ -168,13 +161,12 @@ button {
   width: 100%;
   padding: 1em;
   margin-bottom: 1em;
-	font-size: 1rem;
 	font-family: "Avenir", "Avenir Next", sans-serif;
 }
 
 input,
 textarea {
-	border: 1px solid black;
+	border: 1px solid var(--primary);
 }
 
 button {
@@ -182,10 +174,4 @@ button {
 	background-color: var(--primary);
 	color: var(--secondary);
 	cursor: pointer;
-}
-
-@media screen and (min-width:768px) {
-	:root {
-		font-size: 1.1rem;
-	}
 }

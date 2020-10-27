@@ -7,8 +7,8 @@ eleventyNavigation:
   order: 0
 ---
 
-We are a Residential and Commercial General Contractor serving San Francisco and the Peninsula since 1995. We have been incorporated since 2001. Our staff consists of highly skilled and dedicated employees; there is always someone from our management team either in the office or available just a phone call away to answer any questions that may arise during your remodel planning.
+Skehan Construction Inc. is owned and operated by Brendan Skehan in the San Francisco Bay Area. Skehan Construction was founded in 1990 in San Francisco. Brendan is a skilled labourer with a General Engineering, Contractors and Plumbing Licenses. He mastered his trade in Ireland after schooling, a rigorous apprenticeship, and serving as a foreman for large factory machinery. All prior to moving to the states at 28, meeting his wife and starting his family here in San Francisco.
 
-Our terms and conditions are stated on the back side of all contract and proposal letters. Upon authorization of your contract and proposal, our office manager or director of operations will contact you to discuss the scheduling of work and/or a letter will be mailed confirming receipt of your signed contract and payment terms.
+Skehan Construction has taken on countless jobs both small and large. Ranging from kitchen, bathroom, remodels in single family homes. To large scale commercial projects, specifically at the US Department of Agriculture, and various apartment complexes and high rise offices in the downtown San Francisco area.
 
-We are confident when your contract is signed for approval; you will be 100% satisfied with the outcome. We use only top of the line subcontractors and material suppliers. We are fully insured and maintain California Workers Compensation for all our employees.
+Brendan is a seasoned contractor, and Skehan Construction offers quality workmanship at a fair price, whatever the job may be.
